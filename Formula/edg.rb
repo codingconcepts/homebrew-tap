@@ -1,27 +1,27 @@
 class Edg < Formula
   desc "Realistic test data generator"
   homepage "https://github.com/codingconcepts/edg-releases"
-  version "4.2.0"
+  version "4.3.0"
 
   on_macos do
     on_arm do
       url "https://github.com/codingconcepts/edg-releases/releases/download/v#{version}/edg-darwin-arm64"
-      sha256 "74b9fa668f406c283de835f2ecbdae405ebf1b2d60e1781786164cd30a9177d5"
+      sha256 "bdae920e0cd9effdc52b25dd0f5c344ad44f089cbc06cb53592a71cf1c6653f6"
     end
     on_intel do
       url "https://github.com/codingconcepts/edg-releases/releases/download/v#{version}/edg-darwin-amd64"
-      sha256 "53084ea4e07b66ef9d9a3825788565310fd504df5910a275529ad7fc5a621b21"
+      sha256 "5f902a7be7f9f533cbf3b1ee42b76985a76321c7f0769b05a6db05a4f07bf514"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/codingconcepts/edg-releases/releases/download/v#{version}/edg-linux-arm64"
-      sha256 "a7bed7028946e7063213b8f67d7de1567f2e6e53f4a3b0f52c02562986c497dd"
+      sha256 "7dce0a33fc4de905469652810991e84033fab284d27c43806f8575c175dda822"
     end
     on_intel do
       url "https://github.com/codingconcepts/edg-releases/releases/download/v#{version}/edg-linux-amd64"
-      sha256 "60f53f4fe744380783c0b5c74462d82f903fa8d68dbc591427348541769e3331"
+      sha256 "b281f0012002150f6cf5015b674ec58a6bd4e8c94c331762a718cb04386ed211"
     end
   end
 
